@@ -3,12 +3,12 @@ import React, { Component } from "react";
 import { Route, Router } from "react-router-dom";
 import Appbar from "./components/Appbar";
 import CourseList from "./components/CourseList";
-import Album from "./material-ui/templates/album/Album";
-import Blog from "./material-ui/templates/blog/Blog";
-import Checkout from "./material-ui/templates/checkout/Checkout";
-import Dashboard from "./material-ui/templates/dashboard/Dashboard";
-import Pricing from "./material-ui/templates/pricing/Pricing";
-import SignIn from "./material-ui/templates/sign-in/SignIn";
+import Album from "./templates/album/Album";
+import Blog from "./templates/blog/Blog";
+import Checkout from "./templates/checkout/Checkout";
+import Dashboard from "./templates/dashboard/Dashboard";
+import Pricing from "./templates/pricing/Pricing";
+import SignIn from "./templates/sign-in/SignIn";
 
 class RouteConfig extends Component {
   render() {
