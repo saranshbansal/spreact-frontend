@@ -8,6 +8,8 @@ You can find the backend of this project here: [spreact-backend] (https://github
 
 ## Available Scripts
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/saranshbansal/spreact-frontend.svg)](https://greenkeeper.io/)
+
 In the project directory, you can run:
 
 ### `yarn start`
