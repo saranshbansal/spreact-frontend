@@ -1,8 +1,8 @@
 import { createBrowserHistory } from "history";
 import React, { Component } from "react";
 import { Route, Router } from "react-router-dom";
-import Appbar from "./components/Appbar";
 import CourseList from "./components/CourseList";
+import CoursesAppBar from "./components/CoursesAppBar";
 import Album from "./templates/album/Album";
 import Blog from "./templates/blog/Blog";
 import Checkout from "./templates/checkout/Checkout";
@@ -17,8 +17,8 @@ class RouteConfig extends Component {
         {/* PUBLIC ROUTES */}
         <Route path="/login" component={SignIn} />
         {/* COMMON ROUTES */}
-        <Route exact path="/" component={Appbar} />
-        <Route path="/components/course-list" component={CourseList} />
+        <Route exact path="/" component={CoursesAppBar} />
+        <Route path="/course-list" component={CourseList} />
         <Route path="/components/album" component={Album} />
         <Route path="/components/blog" component={Blog} />
         <Route path="/components/checkout" component={Checkout} />
